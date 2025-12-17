@@ -11,6 +11,7 @@ on:
 
 jobs:
   test:
+    if: github.repository == 'CEU-Economics-and-Business/ECBS-5147-Data-Engineering-2-Cloud-Computing'
     runs-on: ubuntu-latest
     container:
       image: ghcr.io/zoltanctoth/ceu-cloud-class:latest
